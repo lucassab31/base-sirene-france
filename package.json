@@ -1,0 +1,19 @@
+{
+  "name": "base-de-donnees-societe-francaise",
+  "version": "1.0.0",
+  "description": "Script Node.js pour créer ou mettre à jour une base de données SIRENE avec les informations des établissements et des unités légales françaises.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas S",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.5"
+  }
+}
